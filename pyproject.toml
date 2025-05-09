@@ -1,0 +1,22 @@
+[project]
+name = "papertalk"
+version = "0.1.0"
+description = "A RAG tool for analyzing paper references and their connections"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-community>=0.1.0",
+    "tiktoken",
+    "faiss-cpu",
+    "rank-llm", 
+    "sentence-transformers>=2.2.2",
+    "openai>=1.0.0",
+    "tqdm>=4.66.0",
+    "ipykernel>=6.25.0",
+    "requests>=2.31.0",
+    "bibtexparser>=1.4.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build" 
